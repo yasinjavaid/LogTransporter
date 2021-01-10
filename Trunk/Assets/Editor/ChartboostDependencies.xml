@@ -1,0 +1,11 @@
+<dependencies>
+  <androidPackages>
+    <androidPackage spec="com.google.android.gms:play-services-base:15.0.1"/>
+       <androidSdkPackageIds>
+        <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
+      </androidSdkPackageIds>
+       <repositories>
+        <repository>https://maven.google.com</repository>
+      </repositories>
+  </androidPackages>
+</dependencies>

@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a3079845bda5a4bc797fb7e4555e3650
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Agency FB
+  fontNames:
+  - Agency FB
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8ef513a006acb46bfb5fd51a773d4da9, type: 3}
+  - {fileID: 12800000, guid: a20f7227f65814205abd03a54c529eb5, type: 3}
+  - {fileID: 12800000, guid: ac8420ca1241e4a2c8b8513144d1add4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

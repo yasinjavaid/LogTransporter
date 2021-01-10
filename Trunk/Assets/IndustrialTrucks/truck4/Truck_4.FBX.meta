@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 61d8bcbed48824a7fac151e29ba52fc3
+timeCreated: 1503321432
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body_main
+    100002: glass
+    100004: Inside002
+    100006: Object002
+    100008: Rectangle002
+    100010: Steer002
+    100012: Truck4_Body
+    100014: Truck4_Wheel_1BL
+    100016: Truck4_Wheel_1BR
+    100018: Truck4_Wheel_2BL
+    100020: Truck4_Wheel_2BR
+    100022: Truck4_Wheel_FL
+    100024: Truck4_Wheel_FR
+    100026: //RootNode
+    400000: body_main
+    400002: glass
+    400004: Inside002
+    400006: Object002
+    400008: Rectangle002
+    400010: Steer002
+    400012: Truck4_Body
+    400014: Truck4_Wheel_1BL
+    400016: Truck4_Wheel_1BR
+    400018: Truck4_Wheel_2BL
+    400020: Truck4_Wheel_2BR
+    400022: Truck4_Wheel_FL
+    400024: Truck4_Wheel_FR
+    400026: //RootNode
+    2300000: body_main
+    2300002: glass
+    2300004: Inside002
+    2300006: Object002
+    2300008: Rectangle002
+    2300010: Steer002
+    2300012: Truck4_Body
+    2300014: Truck4_Wheel_1BL
+    2300016: Truck4_Wheel_1BR
+    2300018: Truck4_Wheel_2BL
+    2300020: Truck4_Wheel_2BR
+    2300022: Truck4_Wheel_FL
+    2300024: Truck4_Wheel_FR
+    3300000: body_main
+    3300002: glass
+    3300004: Inside002
+    3300006: Object002
+    3300008: Rectangle002
+    3300010: Steer002
+    3300012: Truck4_Body
+    3300014: Truck4_Wheel_1BL
+    3300016: Truck4_Wheel_1BR
+    3300018: Truck4_Wheel_2BL
+    3300020: Truck4_Wheel_2BR
+    3300022: Truck4_Wheel_FL
+    3300024: Truck4_Wheel_FR
+    4300000: Truck4_Body
+    4300002: Truck4_Wheel_FR
+    4300004: Truck4_Wheel_FL
+    4300006: Truck4_Wheel_1BR
+    4300008: Truck4_Wheel_2BR
+    4300010: Truck4_Wheel_1BL
+    4300012: Truck4_Wheel_2BL
+    4300014: body_main
+    4300016: Steer002
+    4300018: Inside002
+    4300020: Object002
+    4300022: glass
+    4300024: Rectangle002
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

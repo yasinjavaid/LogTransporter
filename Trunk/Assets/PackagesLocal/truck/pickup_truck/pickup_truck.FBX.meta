@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: af480ce4d9128ad4d9bde1f7fccff789
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pickup_truck
+    100004: pickup_truck_back_left
+    100006: pickup_truck_back_right
+    100008: pickup_truck_front_left
+    100010: pickup_truck_front_right
+    100012: body_main
+    100014: Inside002
+    100016: Object001
+    100018: Object002
+    100020: Object003
+    100022: Rectangle001
+    100024: Steer002
+    400000: //RootNode
+    400002: pickup_truck
+    400004: pickup_truck_back_left
+    400006: pickup_truck_back_right
+    400008: pickup_truck_front_left
+    400010: pickup_truck_front_right
+    400012: body_main
+    400014: Inside002
+    400016: Object001
+    400018: Object002
+    400020: Object003
+    400022: Rectangle001
+    400024: Steer002
+    2300000: pickup_truck
+    2300002: pickup_truck_back_left
+    2300004: pickup_truck_back_right
+    2300006: pickup_truck_front_left
+    2300008: pickup_truck_front_right
+    2300010: body_main
+    2300012: Inside002
+    2300014: Object001
+    2300016: Object002
+    2300018: Object003
+    2300020: Steer002
+    3300000: pickup_truck
+    3300002: pickup_truck_back_left
+    3300004: pickup_truck_back_right
+    3300006: pickup_truck_front_left
+    3300008: pickup_truck_front_right
+    3300010: body_main
+    3300012: Inside002
+    3300014: Object001
+    3300016: Object002
+    3300018: Object003
+    3300020: Steer002
+    4300000: pickup_truck
+    4300002: pickup_truck_back_right
+    4300004: pickup_truck_back_left
+    4300006: pickup_truck_front_right
+    4300008: pickup_truck_front_left
+    4300010: Object001
+    4300012: body_main
+    4300014: Steer002
+    4300016: Inside002
+    4300018: Object002
+    4300020: Object003
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

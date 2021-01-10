@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: ed24727b5d6e6ac48a4d8b3a25b6e01f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm2
+    100004: body_main
+    100006: Camera
+    100008: //RootNode
+    100010: gabelhalterung
+    100012: gabeln
+    100014: hebel1
+    100016: hebel2
+    100018: hebel3
+    100020: lenkrad
+    100022: reifen_hinten_links
+    100024: reifen_hinten_rechts
+    100026: reifen_vorne_links
+    100028: reifen_vorne_rechts
+    100030: zylinder_part1
+    100032: zylinder_part2
+    400000: arm1
+    400002: arm2
+    400004: body_main
+    400006: Camera
+    400008: //RootNode
+    400010: gabelhalterung
+    400012: gabeln
+    400014: hebel1
+    400016: hebel2
+    400018: hebel3
+    400020: lenkrad
+    400022: reifen_hinten_links
+    400024: reifen_hinten_rechts
+    400026: reifen_vorne_links
+    400028: reifen_vorne_rechts
+    400030: zylinder_part1
+    400032: zylinder_part2
+    2300000: arm1
+    2300002: arm2
+    2300004: body_main
+    2300006: gabelhalterung
+    2300008: gabeln
+    2300010: hebel1
+    2300012: hebel2
+    2300014: hebel3
+    2300016: lenkrad
+    2300018: reifen_hinten_links
+    2300020: reifen_hinten_rechts
+    2300022: reifen_vorne_links
+    2300024: reifen_vorne_rechts
+    2300026: zylinder_part1
+    2300028: zylinder_part2
+    3300000: arm1
+    3300002: arm2
+    3300004: body_main
+    3300006: gabelhalterung
+    3300008: gabeln
+    3300010: hebel1
+    3300012: hebel2
+    3300014: hebel3
+    3300016: lenkrad
+    3300018: reifen_hinten_links
+    3300020: reifen_hinten_rechts
+    3300022: reifen_vorne_links
+    3300024: reifen_vorne_rechts
+    3300026: zylinder_part1
+    3300028: zylinder_part2
+    4300000: body_main
+    4300002: reifen_vorne_links
+    4300004: reifen_vorne_rechts
+    4300006: reifen_hinten_links
+    4300008: zylinder_part1
+    4300010: zylinder_part2
+    4300012: hebel1
+    4300014: hebel2
+    4300016: hebel3
+    4300018: lenkrad
+    4300020: arm2
+    4300022: reifen_hinten_rechts
+    4300024: gabelhalterung
+    4300026: arm1
+    4300028: gabeln
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.013
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 28
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

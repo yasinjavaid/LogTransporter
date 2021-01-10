@@ -1,0 +1,105 @@
+﻿#if UNITY_EDITOR
+using UnityEngine;
+using UnityEditor;
+using System.Collections.Generic;
+
+public class ERConstructor
+{
+    [InitializeOnLoadMethod]
+    static void initlistener()
+    {
+        InstantRoadPath.ERisready = true;
+        IRPUtils.IRPlistener(GenerateERMarkers);
+    }
+    static void GenerateERMarkers(InstantRoadPath IRP,bool preview=false)
+    {
+        GameObject ERObject = IRP.ERObject;
+        //int urutan = IRP.ERIndex;
+        List<Vector3> pathList = new List<Vector3>();
+        Vector3 lastDir = Vector3.zero;
+        //pathList.Add(IRP.PMiddle[0]);
+        if (IRP.PMiddle.Length <= 0) return;
+        for (int i = 0; i < IRP.PMiddle.Length; i++)
+        {
+            Vector3 dir = lastDir;
+            //if (i < IRP.PMiddle.Length - 1)
+            if (i > 0)
+            {
+                if (Vector3.Distance(pathList[pathList.Count-1], IRP.PMiddle[i]) < 5.5f * IRP.roadWidth / 7f) continue;
+                dir = pathList[pathList.Count-1] - IRP.PMiddle[i];
+            }
+            if (Vector3.Distance(dir, lastDir) > 3.5f||i==0|| i == IRP.PMiddle.Length - 1)
+            {
+                lastDir = dir;
+                pathList.Add(IRP.PMiddle[i]);
+            }
+        }
+        if (preview)
+        {
+            IRP.path = pathList.ToArray();
+            return;
+        }
+        Vector3[] path = pathList.ToArray();
+        GameObject msO;
+        if (ERObject == null)
+        {
+            string objectname = "IRP" + (IRP.ERIndex).ToString("00000");
+            int objectType = 0;
+            ERObject = (GameObject)Object.Instantiate(Resources.Load("EasyRoad3DObject", typeof(GameObject)));
+            ERObject.name = objectname;
+            //SESUAIKAN POSISI DENGAN TERRAIN
+            ERObject.transform.position = Vector3.zero;
+            RoadObjectScript script = ERObject.GetComponent<RoadObjectScript>();
+            script.OOQDOOQQ = false;
+            script.autoUpdate = true;
+            script.surrounding = 1.0f;
+            script.indent = 1.0f;
+            script.geoResolution = 2f;
+            script.objectType = objectType;
+            script.materialType = 0;
+            if (objectType == 1)
+            {
+                script.objectText = "River";
+                script.forceY = true;
+            }
+            if (objectType == 2) script.geoResolution = 0.5f;
+            msO = (GameObject)Object.Instantiate(Resources.Load("marker", typeof(GameObject)));
+            msO.transform.parent = ERObject.transform.Find("Markers");
+        }
+        MarkerScript MarkerItem = ERObject.GetComponentInChildren<MarkerScript>();
+        if (MarkerItem != null)
+        {
+            if (MarkerItem.surface == null)
+                MarkerItem.surface = MarkerItem.transform.Find("surface");
+            RoadObjectScript ros = MarkerItem.transform.GetComponentInParent<RoadObjectScript>();
+            ros.roadWidth = 3f * IRP.roadWidth / 7f;
+            ros.indent = 1; ros.surrounding = 1;
+            MarkerItem.li = 1; MarkerItem.ri = 1; MarkerItem.ls = 1; MarkerItem.rs = 1;
+
+            string MarkerName = MarkerItem.name;
+
+            Transform parent = MarkerItem.transform.parent;
+            //for (int i = 0; i < ms.transform.parent.childCount; i++)
+            while (parent.childCount > 1)
+            {
+                Transform child = parent.GetChild(parent.childCount - 1);
+                if (child != MarkerItem.transform)
+                {
+                    Object.DestroyImmediate(child.gameObject, false);
+                }
+            }
+            MarkerItem.transform.position = path[path.Length - 1];
+            MarkerScript clone = MarkerItem;
+            //Ganti Pakai Jumlah Track
+            //for (int i = 0; i < 6; i++)
+            for (int i = path.Length-2; i >= 0; i--)
+            {
+                //lokasi = lokasi + new Vector3(6.0F, 0, 6.0F);
+                clone = Object.Instantiate(MarkerItem, path[i], Quaternion.identity, MarkerItem.transform.parent);
+                clone.name = MarkerName + (i + 2).ToString("0000");
+            }
+            Selection.activeGameObject = ERObject;
+        }
+    }
+}
+#endif

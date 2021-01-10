@@ -1,0 +1,16 @@
+This package incorporates a [BSpline](https://github.com/Tagussan/BSpline), portions of which is:
+
+Copyright © 2014 Tagussan.
+
+and licensed under the MIT License
+https://opensource.org/licenses/MIT
+
+-----------------------------
+
+This package incorporates a [Fugue Icons](http://p.yusukekamiyamane.com/), portions of which is:
+
+© 2013 Yusuke Kamiyamane. All rights reserved.
+
+and licensed under a Creative Commons Attribution 3.0 License. <http://creativecommons.org/licenses/by/3.0/>
+
+-----------------------------

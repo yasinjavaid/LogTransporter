@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: c6d9ce924b029a740b08e2dbf4e7721f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm2
+    100004: body_main
+    100006: Camera
+    100008: //RootNode
+    100010: fensterscheiben
+    100012: gabelhalterung
+    100014: gabeln
+    100016: hebel1
+    100018: hebel2
+    100020: hebel3
+    100022: lenkrad
+    100024: reifen_hinten_links
+    100026: reifen_hinten_rechts
+    100028: reifen_vorne_links
+    100030: reifen_vorne_rechts
+    100032: zylinder_part1
+    100034: zylinder_part2
+    400000: arm1
+    400002: arm2
+    400004: body_main
+    400006: Camera
+    400008: //RootNode
+    400010: fensterscheiben
+    400012: gabelhalterung
+    400014: gabeln
+    400016: hebel1
+    400018: hebel2
+    400020: hebel3
+    400022: lenkrad
+    400024: reifen_hinten_links
+    400026: reifen_hinten_rechts
+    400028: reifen_vorne_links
+    400030: reifen_vorne_rechts
+    400032: zylinder_part1
+    400034: zylinder_part2
+    2300000: arm1
+    2300002: arm2
+    2300004: body_main
+    2300006: fensterscheiben
+    2300008: gabelhalterung
+    2300010: gabeln
+    2300012: hebel1
+    2300014: hebel2
+    2300016: hebel3
+    2300018: lenkrad
+    2300020: reifen_hinten_links
+    2300022: reifen_hinten_rechts
+    2300024: reifen_vorne_links
+    2300026: reifen_vorne_rechts
+    2300028: zylinder_part1
+    2300030: zylinder_part2
+    3300000: arm1
+    3300002: arm2
+    3300004: body_main
+    3300006: fensterscheiben
+    3300008: gabelhalterung
+    3300010: gabeln
+    3300012: hebel1
+    3300014: hebel2
+    3300016: hebel3
+    3300018: lenkrad
+    3300020: reifen_hinten_links
+    3300022: reifen_hinten_rechts
+    3300024: reifen_vorne_links
+    3300026: reifen_vorne_rechts
+    3300028: zylinder_part1
+    3300030: zylinder_part2
+    4300000: body_main
+    4300002: hebel1
+    4300004: lenkrad
+    4300006: fensterscheiben
+    4300008: arm1
+    4300010: arm2
+    4300012: gabelhalterung
+    4300014: gabeln
+    4300016: zylinder_part1
+    4300018: zylinder_part2
+    4300020: hebel2
+    4300022: hebel3
+    4300024: reifen_hinten_links
+    4300026: reifen_hinten_rechts
+    4300028: reifen_vorne_links
+    4300030: reifen_vorne_rechts
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 37
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

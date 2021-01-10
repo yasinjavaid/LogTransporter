@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 370d3e64f1eab40238c677deeff59aff
+timeCreated: 1503312472
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: dumper_truck
+    100002: glass
+    100004: Inside002
+    100006: Mesh03
+    100008: mirror_bod
+    100010: mirror_int
+    100012: Object028
+    100014: Object029
+    100016: pedals01
+    100018: Seats01
+    100020: Steer002
+    100022: Truck3_Body
+    100024: Truck3_LB_Tyre
+    100026: Truck3_Lf_Tyre
+    100028: Truck3_LM_Tyre
+    100030: Truck3_RB_Tyre
+    100032: Truck3_Rf_Tyre
+    100034: Truck3_RM_Tyre
+    100036: //RootNode
+    400000: dumper_truck
+    400002: glass
+    400004: Inside002
+    400006: Mesh03
+    400008: mirror_bod
+    400010: mirror_int
+    400012: Object028
+    400014: Object029
+    400016: pedals01
+    400018: Seats01
+    400020: Steer002
+    400022: Truck3_Body
+    400024: Truck3_LB_Tyre
+    400026: Truck3_Lf_Tyre
+    400028: Truck3_LM_Tyre
+    400030: Truck3_RB_Tyre
+    400032: Truck3_Rf_Tyre
+    400034: Truck3_RM_Tyre
+    400036: //RootNode
+    2300000: glass
+    2300002: Inside002
+    2300004: Mesh03
+    2300006: mirror_bod
+    2300008: mirror_int
+    2300010: Object028
+    2300012: Object029
+    2300014: pedals01
+    2300016: Seats01
+    2300018: Steer002
+    2300020: Truck3_Body
+    2300022: Truck3_LB_Tyre
+    2300024: Truck3_Lf_Tyre
+    2300026: Truck3_LM_Tyre
+    2300028: Truck3_RB_Tyre
+    2300030: Truck3_Rf_Tyre
+    2300032: Truck3_RM_Tyre
+    3300000: glass
+    3300002: Inside002
+    3300004: Mesh03
+    3300006: mirror_bod
+    3300008: mirror_int
+    3300010: Object028
+    3300012: Object029
+    3300014: pedals01
+    3300016: Seats01
+    3300018: Steer002
+    3300020: Truck3_Body
+    3300022: Truck3_LB_Tyre
+    3300024: Truck3_Lf_Tyre
+    3300026: Truck3_LM_Tyre
+    3300028: Truck3_RB_Tyre
+    3300030: Truck3_Rf_Tyre
+    3300032: Truck3_RM_Tyre
+    4300000: Truck3_Body
+    4300002: Truck3_Rf_Tyre
+    4300004: Truck3_RM_Tyre
+    4300006: Truck3_RB_Tyre
+    4300008: Truck3_Lf_Tyre
+    4300010: Truck3_LM_Tyre
+    4300012: Truck3_LB_Tyre
+    4300014: Mesh03
+    4300016: pedals01
+    4300018: Seats01
+    4300020: mirror_int
+    4300022: mirror_bod
+    4300024: Inside002
+    4300026: Steer002
+    4300028: Object029
+    4300030: Object028
+    4300032: glass
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
